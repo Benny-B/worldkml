@@ -4281,7 +4281,7 @@
       <COLOR_MAP>2</COLOR_MAP>
     </S_country>
     <S_country>
-      
+      <name>Sudan</name>
       <visibility>0</visibility>
       <styleUrl>#khStyle548_1</styleUrl>
       <Style>
@@ -4303,7 +4303,6 @@
       <GMI_CNTRY>SDN</GMI_CNTRY>
       <ISO_2DIGIT>SD</ISO_2DIGIT>
       <ISO_3DIGIT>SDN</ISO_3DIGIT>
-      <CNTRY_NAME>Sudan</CNTRY_NAME>
       <LONG_NAME>Sudan</LONG_NAME>
       <SOVEREIGN>Sudan</SOVEREIGN>
       <POP_CNTRY>27713420</POP_CNTRY>
