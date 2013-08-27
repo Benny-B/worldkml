@@ -3,36 +3,7 @@
 <Document>
   <name>Countries</name>
   <visibility>0</visibility>
-  <Schema parent="Placemark" name="S_country">
-    <SimpleField type="wstring" name="FIPS_CNTRY">
-    </SimpleField>
-    <SimpleField type="wstring" name="GMI_CNTRY">
-    </SimpleField>
-    <SimpleField type="wstring" name="ISO_2DIGIT">
-    </SimpleField>
-    <SimpleField type="wstring" name="ISO_3DIGIT">
-    </SimpleField>
-    <SimpleField type="wstring" name="CNTRY_NAME">
-    </SimpleField>
-    <SimpleField type="wstring" name="LONG_NAME">
-    </SimpleField>
-    <SimpleField type="wstring" name="SOVEREIGN">
-    </SimpleField>
-    <SimpleField type="double" name="POP_CNTRY">
-    </SimpleField>
-    <SimpleField type="wstring" name="CURR_TYPE">
-    </SimpleField>
-    <SimpleField type="wstring" name="CURR_CODE">
-    </SimpleField>
-    <SimpleField type="wstring" name="LANDLOCKED">
-    </SimpleField>
-    <SimpleField type="double" name="SQKM">
-    </SimpleField>
-    <SimpleField type="double" name="SQMI">
-    </SimpleField>
-    <SimpleField type="wstring" name="COLOR_MAP">
-    </SimpleField>
-  </Schema>
+ 
   <Style id="khStyle548_3">
     <LineStyle id="khLineStyle548_3">
       <color>66000000</color>
