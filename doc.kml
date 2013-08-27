@@ -3,7 +3,36 @@
 <Document>
   <name>Countries</name>
   <visibility>0</visibility>
- 
+  <Schema parent="Placemark" name="S_country">
+    <SimpleField type="wstring" name="FIPS_CNTRY">
+    </SimpleField>
+    <SimpleField type="wstring" name="GMI_CNTRY">
+    </SimpleField>
+    <SimpleField type="wstring" name="ISO_2DIGIT">
+    </SimpleField>
+    <SimpleField type="wstring" name="ISO_3DIGIT">
+    </SimpleField>
+    <SimpleField type="wstring" name="CNTRY_NAME">
+    </SimpleField>
+    <SimpleField type="wstring" name="LONG_NAME">
+    </SimpleField>
+    <SimpleField type="wstring" name="SOVEREIGN">
+    </SimpleField>
+    <SimpleField type="double" name="POP_CNTRY">
+    </SimpleField>
+    <SimpleField type="wstring" name="CURR_TYPE">
+    </SimpleField>
+    <SimpleField type="wstring" name="CURR_CODE">
+    </SimpleField>
+    <SimpleField type="wstring" name="LANDLOCKED">
+    </SimpleField>
+    <SimpleField type="double" name="SQKM">
+    </SimpleField>
+    <SimpleField type="double" name="SQMI">
+    </SimpleField>
+    <SimpleField type="wstring" name="COLOR_MAP">
+    </SimpleField>
+  </Schema>
   <Style id="khStyle548_3">
     <LineStyle id="khLineStyle548_3">
       <color>66000000</color>
@@ -4254,6 +4283,7 @@
     <S_country>
       <name>Sudan</name>
       <visibility>0</visibility>
+      <description><![CDATA[<a href='http://www.google.com/search?q=Sudan'>Search Google</a> <BR><a href='http://maps.google.com/?ll=13.8329607138716,30.0558223551497&spn=0.02,0.02&t=h'>Maps Google</a> <BR>]]></description>
       <styleUrl>#khStyle548_1</styleUrl>
       <Style>
         <PolyStyle>
@@ -4274,6 +4304,9 @@
       <GMI_CNTRY>SDN</GMI_CNTRY>
       <ISO_2DIGIT>SD</ISO_2DIGIT>
       <ISO_3DIGIT>SDN</ISO_3DIGIT>
+      <CNTRY_NAME>Sudan</CNTRY_NAME>
+      <LONG_NAME>Sudan</LONG_NAME>
+      <SOVEREIGN>Sudan</SOVEREIGN>
       <POP_CNTRY>27713420</POP_CNTRY>
       <CURR_TYPE>Dinar</CURR_TYPE>
       <CURR_CODE>SDD</CURR_CODE>
@@ -17785,7 +17818,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      
+      <name>Sudan</name>
       <visibility>0</visibility>
       <styleUrl>#NoneIconStyle</styleUrl>
       <Point>
